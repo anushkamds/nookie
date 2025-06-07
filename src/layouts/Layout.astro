@@ -17,13 +17,13 @@ const { title, description, image }: Props = Astro.props
 ---
 
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en-US">
   <head>
     <Head title={`${title} | ${SITE.title}`} {description} {image} />
   </head>
   <body>
     <Header />
-    <main class="flex-auto border-x border-border/50 max-w-3xl mx-auto">
+    <main class="flex-auto border-x border-border/50 max-w-4xl mx-auto">
       <slot />
     </main>
     <Footer />
